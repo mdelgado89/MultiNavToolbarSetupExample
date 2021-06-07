@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fire"
+    app:startDestination="@id/fireFragment">
+
+    <fragment
+        android:id="@+id/fireFragment"
+        android:name="com.example.toolbarexample.fire.FireFragment"
+        android:label="FireFragment" />
+</navigation>
